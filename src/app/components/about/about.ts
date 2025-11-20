@@ -10,6 +10,6 @@ import { portfolioData } from '../../data';
   styleUrl: './about.scss',
 })
 export class About {
-  skills = portfolioData.skills;
+  skills = portfolioData.skills as any; // Using any to bypass strict typing for now since we changed the structure
   education = portfolioData.education;
 }

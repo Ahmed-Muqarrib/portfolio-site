@@ -77,11 +77,14 @@ export const portfolioData = {
     },
   ],
   skills: {
-    languages: ['Python', 'JavaScript', 'Java', 'C', 'SQL', 'C#', 'Kotlin'],
+    languages: ['Python', 'JavaScript', 'Java', 'C', 'SQL', 'C#', 'Kotlin', 'HTML', 'CSS', 'PHP'],
     frameworks: ['React', 'Spring Boot', 'Angular', 'ASP.NET', 'Node.js', 'Junit', 'xUnit'],
-    devops: ['AWS', 'Firebase', 'Docker', 'Git', 'Jenkins', 'JIRA', 'Trello', 'Tableau', 'Power BI', 'SAS'],
+    devops: ['Docker', 'Git', 'Jenkins', 'Selenium'],
+    cloud: ['AWS', 'Firebase', 'Azure'],
+    projectManagement: ['JIRA', 'Trello'],
+    analytics: ['Tableau', 'Power BI', 'SAS'],
     libraries: ['Pandas', 'NumPy', 'Matplotlib', 'TensorFlow'],
-    databases: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB', 'Hadoop', 'Spark', 'HiveSQL', 'Kafka', 'Flume'],
+    databases: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB', 'HiveSQL'],
+    bigData: ['Hadoop', 'Spark', 'Kafka', 'Flume'],
   },
 };
-
