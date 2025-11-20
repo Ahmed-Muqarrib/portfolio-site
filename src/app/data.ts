@@ -81,7 +81,7 @@ export const portfolioData = {
     frameworks: ['React', 'Spring Boot', 'Angular', 'ASP.NET', 'Node.js', 'Junit', 'xUnit'],
     devops: ['Docker', 'Git', 'Jenkins', 'Selenium'],
     cloud: ['AWS', 'Firebase', 'Azure'],
-    projectManagement: ['JIRA', 'Trello'],
+    projectManagement: ['JIRA', 'Trello', 'Agile/Scrum', 'SDLC', 'ITIL Foundations'],
     analytics: ['Tableau', 'Power BI', 'SAS'],
     libraries: ['Pandas', 'NumPy', 'Matplotlib', 'TensorFlow'],
     databases: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB', 'HiveSQL'],
