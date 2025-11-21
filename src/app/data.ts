@@ -1,11 +1,12 @@
 export const portfolioData = {
   personal: {
     name: 'Ahmed Muqarrib',
-    title: 'Machine Learning Research Assistant | Full Stack Developer',
+    title: 'Machine Learning & Data Engineer',
     email: 'muqarrib720ahmed@gmail.com',
     linkedin: 'https://www.linkedin.com/in/ahmed-muqarrib-b59a90289/',
     github: 'https://github.com/Ahmed-Muqarrib',
-    description: 'Passionate about Machine Learning, Full Stack Development, and building impactful AI solutions.',
+    description:
+      'Passionate about Machine Learning, Full Stack Development, and delivering data-rich insights that inform impactful AI solutions.',
   },
   education: [
     {
@@ -28,19 +29,19 @@ export const portfolioData = {
       ],
     },
     {
-      role: 'AI Web/Mobile Application Developer (Co-op)',
+      role: 'AI Web/Mobile Application Developer',
       company: "Sheridan's Centre for Applied AI",
       period: 'May 2025 – Aug 2025',
       location: 'Oakville, Ontario',
       achievements: [
         'Developed a responsive web app using React and prompt-tuned Google Gemini API to generate personalized, actionable tasks for burnout prevention',
-        'Launched the tool (Bloomzy) — live demo: bloomzy-dynamic.vercel.app — empowering students and entrepreneurs to reduce decision fatigue via prioritized, AI-generated tasks',
+        'Launched the tool (Bloomzy) — live demo: <a href="https://tool.bloomzy.ca/" target="_blank" rel="noreferrer" class="text-cyan-300 underline decoration-dotted hover:text-white transition-colors">tool.bloomzy.ca</a> — empowering students and entrepreneurs to reduce decision fatigue via prioritized, AI-generated tasks',
         'Designed adaptive chat workflows (text, sliders, multiple-choice) that tailor task recommendations to users’ mood and goals, enabling personalized wellness interventions',
         'Researched entrepreneurial burnout and wellness-tracking tools, producing reports and presentations on competitor apps and AI cost-performance to inform product direction',
       ],
     },
     {
-      role: 'Research Data Scientist (Co-op & Part-time)',
+      role: 'Research Data Scientist',
       company: "Sheridan's Centre for Applied AI",
       period: 'Jan 2024 – Feb 2025',
       location: 'Oakville, Ontario',
@@ -53,26 +54,29 @@ export const portfolioData = {
   ],
   projects: [
     {
-      name: 'Accessible Events Portal',
-      description: 'Designed and developed an inclusive web portal enabling agencies to post accessible events and families to browse & book them.',
-      tech: ['Angular', 'C# / ASP.NET Core', 'Docker', 'Azure'],
-      link: 'https://github.com/Not-So-Swedish-Chef/Courage-Showcase',
-      github: 'https://github.com/Not-So-Swedish-Chef/Courage-Showcase',
-      image: 'projects/Project1.png',
-      details: [
-        'Implemented Docker-based deployment (frontend, backend, database) with Azure hosting',
-        'Led storyboarding, usability testing, and code review sessions with a 4-person team',
-      ],
-    },
-    {
       name: 'Bloomzy',
-      description: 'AI-powered burnout prevention tool.',
+      description: 'AI-powered burnout prevention assistant that prioritizes actionable, context-aware tasks for students and entrepreneurs.',
       tech: ['React', 'Google Gemini API', 'Vercel'],
-      link: 'https://bloomzy-dynamic.vercel.app/',
+      link: 'https://tool.bloomzy.ca/',
       github: null,
       image: 'projects/Project2.png',
       details: [
-        'Empowering students and entrepreneurs to reduce decision fatigue via prioritized, AI-generated tasks',
+        'Empowers users to reduce decision fatigue via prioritized, AI-generated tasks',
+        'Used React and prompt-tuned Google Gemini API workflows customized to mood inputs, multi-step forms, and role-specific goals',
+      ],
+    },
+    {
+      name: 'Accessible Events Portal',
+      description:
+        'Agency-facing portal for listing adaptive, recognition-focused events plus a family dashboard to discover, save, and book inclusive experiences.',
+      tech: ['Angular', 'C# / ASP.NET Core', 'Docker', 'Azure'],
+      link: null,
+      github: 'https://github.com/Not-So-Swedish-Chef/Courage-Showcase',
+      image: 'projects/Project1.png',
+      details: [
+        'Agencies can publish highlight-worthy events for differently abled communities, showcase impact, and share organization profiles',
+        'Families browse curated listings, bookmark sessions, add events to Google Calendar, or contact agencies directly from the portal',
+        'Implemented Docker-based deployment (frontend, backend, database) with Azure hosting and led usability testing with a 4-person team',
       ],
     },
   ],

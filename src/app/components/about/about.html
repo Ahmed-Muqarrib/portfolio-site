@@ -10,22 +10,23 @@
       <div class="space-y-6">
         <h3 class="text-2xl font-semibold text-white">Who I Am</h3>
         <p class="text-slate-400 leading-relaxed">
-          I am an Information Systems Engineering student at Sheridan College with a strong passion for Machine Learning and Full Stack Development.
-          My journey involves building AI-powered applications and analyzing complex biological and healthcare datasets to derive meaningful insights.
+          I shape data-heavy problems into products directors and non-technical partners can act on. Whether I'm leading AI tooling for burnout prevention or distilling
+          healthcare datasets into targeted outreach strategies, I focus on building full stack solutions that surface meaningful insight, not just dashboards.
         </p>
         <p class="text-slate-400 leading-relaxed">
-          I have experience with predictive modeling, data visualization, and developing responsive web applications using modern frameworks like Angular and React.
-          I thrive in collaborative environments and am always eager to tackle challenging problems.
+          My experience spans predictive modeling, data storytelling, and shipping responsive web apps with Angular and React. I'm known for translating complex findings into
+          executive-ready reports and research narratives that keep stakeholders aligned. I thrive in collaborative environments and love taking ambiguous business challenges
+          and turning them into measurable wins.
         </p>
       </div>
 
       <!-- Education -->
       <div>
         <h3 class="text-2xl font-semibold text-white mb-6">Education</h3>
-        <div *ngFor="let edu of education" class="bg-slate-900 border-l-4 border-cyan-400 pl-6 py-4 rounded-r-lg shadow-md">
+          <div *ngFor="let edu of education" class="bg-slate-900 border-l-4 border-cyan-400 pl-6 py-4 rounded-r-lg shadow-md">
           <h4 class="text-xl font-bold text-white">{{ edu.school }}</h4>
           <p class="text-cyan-400 font-medium">{{ edu.degree }}</p>
-          <p class="text-slate-500 text-sm mt-2">{{ edu.year }} • {{ edu.details }}</p>
+            <p class="text-slate-200 text-sm mt-2 font-semibold tracking-wide">{{ edu.details }}</p>
         </div>
       </div>
     </div>
